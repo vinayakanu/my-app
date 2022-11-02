@@ -10,9 +10,8 @@
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://13.212.5.204:9000/</sonar.host.url>
-		<sonar.login>admin</sonar.login>
-		<sonar.password>password</sonar.password>
+		<sonar.host.url>http://52.221.218.126:8081/</sonar.host.url>
+		
 
 	</properties>
 	<dependencies>
@@ -42,12 +41,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://172.31.15.236:8081/repository/maven-snapshots/</url>
+		    <url>http://52.221.218.126:8081/repository/sample-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://172.31.15.236:8081/repository/maven-releases/</url>
+		    <url>http://52.221.218.126:8081/repository/sample-Release/</url>
 		</repository>
   	</distributionManagement>
 	
