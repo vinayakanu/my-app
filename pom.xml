@@ -42,7 +42,7 @@
 	</dependencies>
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexus</id>
+		    <id>nexusRepo</id>
 		    <url>http://13.212.52.52:8081/repository/simple-snapshots/</url>
 		 </snapshotRepository>
 		
